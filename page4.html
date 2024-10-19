@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Fun Facts</title>
+    <style>
+        body {
+            background-image: url('pexels-apasaric-1694000.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            font-family: 'Fantasy', cursive;
+            text-align: center;
+            color: blueviolet;
+            letter-spacing: 8px;
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+        }
+
+        .info {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .info p {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info li {
+            font-size: 1rem;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .info li:last-child {
+            border-bottom: none;
+        }
+
+        .gif-container {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gif-container img {
+            max-width: 300px;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .gif-container img {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🌌 Neptune 🌌</h1>
+    <div class="container">
+        <div class="info">
+            <p>Fun facts about this planet:</p>
+            <ul>
+                <li>Farthest Planet: Neptune is the most distant planet in our solar system, located about 4.5 billion kilometers (2.8 billion miles) from the Sun.</li>
+                <li>Strongest Winds: Neptune has the fastest winds in the solar system, reaching up to 1,200 mph (1,931 km/h)!</li>
+                <li>Beautiful Blue: Neptune's striking blue color comes from methane in its atmosphere, which absorbs red light and reflects blue.
+                </li>
+                <li>Long Orbit: A year on Neptune is really long—it takes about 165 Earth years for Neptune to complete a single orbit around the Sun!</li>
+                <li>Triton s Geysers: Neptune s largest moon, Triton, has geysers that erupt nitrogen gas, making it one of the most active icy moons in the solar system.</li>
+            </ul>
+        </div>
+        <div class="gif-container">
+            <img src="neptunee.webp" alt="Neptune GIF">
+        </div>
+    </div>
+</body>
+</html>

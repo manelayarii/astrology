@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Fun Facts</title>
+    <style>
+        body {
+            background-image: url('pexels-apasaric-1694000.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            font-family: 'Fantasy', cursive;
+            text-align: center;
+            color: blueviolet;
+            letter-spacing: 8px;
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+        }
+
+        .info {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .info p {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info li {
+            font-size: 1rem;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .info li:last-child {
+            border-bottom: none;
+        }
+
+        .gif-container {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gif-container img {
+            max-width: 300px;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .gif-container img {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🌌 Mercury 🌌</h1>
+    <div class="container">
+        <div class="info">
+            <p>Fun facts about this planet:</p>
+            <ul>
+                <li>Smallest Planet: Mercury is the smallest planet in our solar system, measuring about 3,032 miles in diameter—only slightly larger than the Moon.</li>
+                <li>Future Destination: Mars is the top candidate for future human exploration, with ongoing missions like NASA s Perseverance rover searching for signs of past life.</li>
+                <li>Quick Orbit: A year on Mercury is just 88 Earth days, making it the fastest planet to orbit the Sun.</li>
+                <li>Surface Craters: The planet's surface is heavily cratered and resembles the Moon, a result of impacts from asteroids and comets over billions of years.</li>
+                <li>No Atmosphere: Mercury has a very thin atmosphere, composed mostly of oxygen, sodium, hydrogen, helium, and potassium, which means it can't retain heat.
+                </li>
+            </ul>
+        </div>
+        <div class="gif-container">
+            <img src="mercuryy.webp" alt="Mercury GIF">
+        </div>
+    </div>
+</body>
+</html>

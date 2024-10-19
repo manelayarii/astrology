@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Astronomy Lovers</title>
+    <style>
+        body {
+            background-color: rgba(72, 48, 95, 255);
+        }
+        h1 {
+            text-align: center;
+            color:rgb(117, 155, 167);
+            font-weight: 700;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 4px;
+font-size: 1cm;
+        }
+        .front {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h2 {
+            font-size: 0.5cm;
+            font-weight: 200;
+            font-style: initial;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(187, 203, 117) 
+        }
+        /* Style for the container holding the two planet groups */
+        .planets-container {
+            display: flex;
+            justify-content: space-around; /* This pushes one group to the left and the other to the right */
+            padding: 20px;
+        }
+        /* Style for each group of planets */
+        .planet1, .planet2 {
+            display: flex;
+            flex-direction: column; /* Stack the planets vertically */
+            gap: 10px; /* Adds space between the links */
+        }
+        /* Optional: Style for the planet links */
+        a {
+            text-decoration: none;
+            font-size: 24px; /* Increased font size */
+            color: #333;
+            background-color: #f0f0f0;
+            padding: 15px; /* Increased padding */
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: violet;
+        }
+        img {
+            max-width: 400px; /* Increased max-width for the GIF */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>Astronomy Lovers ❤️</h1>
+    <div class="front">
+        <h2>Please select a solar system planet</h2>
+        <div class="planets-container">
+            <div class="planet1">
+                <a href="page1.html">Saturn</a>
+                <a href="page2.html">Jupiter</a>
+                <a href="page3.html">Uranus</a>
+                <a href="page4.html">Neptune</a>
+            </div>
+            <img src="giphy.webp" alt="Astronomy GIF"> <!-- Removed inline style -->
+            <div class="planet2">
+                <a href="page5.html">Earth</a>
+                <a href="page6.html">Mars</a>
+                <a href="page7.html">Mercury</a>
+                <a href="page8.html">Venus</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
